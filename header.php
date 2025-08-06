@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ferretería CRUD</title>
+  <title>Crud Ferreteria</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
