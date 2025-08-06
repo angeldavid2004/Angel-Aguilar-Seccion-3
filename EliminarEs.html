@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eliminar usuario</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function eliminar() {
+        return confirm("Deseas eliminar el usuario");
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Eliminar usuario</h2>
+    <form method="post" action="EliminarEs.php" onsubmit="return eliminar()">
+      <label for="id">Por Id:</label>
+      <input type="number" name="id" required />
+      <br />
+      <input type="submit" value="Eliminar" />
+    </form>
+    <div class="mensaje">
+      <?php
+         if(isset($_GET['parametro'])){
+           echo htmlspecialchars($_GET['parametro']);
+        }
+     ?></div>
+  </body>
+</html>
