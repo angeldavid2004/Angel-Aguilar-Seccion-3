@@ -10,7 +10,7 @@
     <div class="barra-nav">
       <h1>🔩 Ferretería Inventario</h1>
       <nav>
-        <a href="inicio.php">Inicio</a>
+        <a href="inicio.php">Inicio y Vista Previa</a>
         <a href="agregar.php">Agregar Producto</a>
       </nav>
     </div>
